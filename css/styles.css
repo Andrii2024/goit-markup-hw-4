@@ -308,6 +308,7 @@ padding: 0;
 cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .btn:hover,
 .btn:focus{
 background-color: #404bbf;
@@ -634,7 +635,7 @@ padding-bottom: 120px;
     margin-bottom: 72px;
 }
 .button-hero-item{
-    
+
 }
 
 .button-hero-item-button {
