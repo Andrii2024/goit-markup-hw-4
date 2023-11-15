@@ -529,13 +529,13 @@ img {
 }
 .clients-title {
   width: 183px;
+  margin-bottom: 72px;
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   text-transform: capitalize;
-  margin-bottom: 72px;
 }
 .clients-list {
   display: flex;
