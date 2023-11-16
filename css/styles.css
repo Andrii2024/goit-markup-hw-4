@@ -528,7 +528,6 @@ img {
 .container {
 }
 .clients-title {
-  width: 183px;
   margin-bottom: 72px;
   color: #2e2f42;
   text-align: center;
@@ -632,10 +631,11 @@ img {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio-link:hover .hidden-p,
+.portfolio-link:focus .hidden-p {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 
 .hidden {
@@ -654,12 +654,6 @@ img {
   height: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hidden:hover .hidden-p {
-  transform: translateY(0%);
-}
-.hidden:focus .hidden-p {
-  transform: translateY(0%);
 }
 
 .portfolio-img {
